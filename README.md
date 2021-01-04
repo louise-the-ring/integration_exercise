@@ -9,6 +9,11 @@ voici le [lien](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/spotify-
 
 pour t'aider avec la mise en page regarde sur [ce site](https://css-tricks.com/centering-css-complete-guide/) pour centrer les items.
 
+## Pour lancer le projet sur le local
+
+Afin d'avoir un rendu en direct sur local, il faut que tu lances la commandes yarn install dans le terminal de ton IDE
+Une fois cela fait, tu peux lancer la commande `yarn dev`, cela ouvrira la page static sur ton local dans ton navigateur
+
 ## Publier sur github
 
 Pour publier sur github afin que je puisse corriger/vérifier ton travail
@@ -21,6 +26,7 @@ $ git push origin master
 ```
 
 ## N'hésite pas aux besoins
+
 bon courage !
 
 # integration_exercise
