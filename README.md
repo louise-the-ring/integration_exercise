@@ -1,4 +1,4 @@
-# CSS | Spotify Clone
+# integration_exercise
 
 ## Introduction
 
@@ -28,5 +28,3 @@ $ git push origin master
 ## N'hésite pas aux besoins
 
 bon courage !
-
-# integration_exercise
