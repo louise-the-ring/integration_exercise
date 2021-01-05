@@ -68,7 +68,7 @@ div.container-text{
     margin-left: 200px;
 }
 
-.block .image-center{
+.image-center{
     text-align: center;
     height: 10%;
     width: 10%;
@@ -76,20 +76,26 @@ div.container-text{
     margin-right: 10px;
 
 }
-
+.block-centrale{
+    display: flex;
+}
 .block-droit{
     float: right;
     /* margin-left: 30px; */
     margin-right: 60px;
+    order: 3;
 }
 .block{
     margin-right: 60px;
     margin-left: 60px;
+    order: 2;
+    top: -50px;
 }
 .block-gauche{
     float: left;
-    margin-right: -180px;
-    margin-left: auto;
+    margin-right: -60px;
+    margin-left: 80px;
+    order: 1;
 }
 
 .image{
@@ -107,42 +113,69 @@ div.container-text{
 .bigblock{
     background-color: #00B172;
     text-align: left;
-    display: block;
+    display: flex;
     margin-right: 30px;
     margin-left: 30px;
+    position: relative;
+    flex-direction: column;
+    flex-basis: auto;
+    justify-content: space-around;
+    block-size: 600px;
+    writing-mode: horizontal-tb;
 }
 .bigblock-block-titre-pr{
     font-size: 30px;
     text-decoration: underline white;
     color: white;
-    position: center;
     margin-right: 30px;
     margin-left: 30px;
+    top: -90px
 }
 .bigblock-block-titre{
     color: white;
     font-size: 25px;
-
-    margin-right: 30px;
-    margin-left: 30px;
 }
 
 .bigblock-block-text{
     color: white;
+}
 
-    margin-right: 30px;
-    margin-left: 30px;
+.bigblock-block{
+    position: absolute;
+    order: 1;
+    top: 0px;
+    left: 0px;
+    padding-top: 30%;
+    padding-left: 30%;
+}
+.bigblock-block-block1{
+    top: -10px;
+    block-size: 100px;
+}
+.bigblock-block-block2{
+    top: -20px;
+    block-size: 200px;
+}
+.bigblock-block-block3{
+    top: -30px;
+    block-size: 100px;
 }
 .bigblock-image1{
     border-image-width: auto;
-    display: block;
+    order: 2;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    position: absolute;
+    top: 250px;
+    left: 600px;
 }
 .bigblock-image2{
-    display: block;
+    order: 3;
     margin-left: 10px;
     margin-right: 10px;
     float: right;
     height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 925px;
 }
