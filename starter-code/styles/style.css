@@ -60,24 +60,30 @@ div.container-text{
     text-align: center;
     font-size: 50px;
     text-decoration: underline #00B172;
+
+    margin-bottom: 60px;
 }
 
 .block-droit .block-gauche .block{
     width: 50%;
     display: block;
     margin-left: 200px;
+
 }
 
 .image-center{
     text-align: center;
-    height: 10%;
-    width: 10%;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 30%;
+    margin-left: 60px;
+    margin-right: 60px;
 
 }
 .block-centrale{
+    padding-bottom: 2px;
+}
+.block-centrale-enfant{
     display: flex;
+    justify-content: space-around;
 }
 .block-droit{
     float: right;
@@ -100,10 +106,9 @@ div.container-text{
 
 .image{
     display: block;
-    height: 10%;
-    width: 10%;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 30%;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .titre-block{
@@ -123,13 +128,28 @@ div.container-text{
     block-size: 600px;
     writing-mode: horizontal-tb;
 }
+.
+
+.bigblock-block-gauche{
+    order: 1;
+    flex-direction: column;
+    text-align: left;
+
+}
+.bigblock-block-droite{
+    order: 2;
+
+}
+
+
 .bigblock-block-titre-pr{
     font-size: 30px;
     text-decoration: underline white;
     color: white;
     margin-right: 30px;
-    margin-left: 30px;
-    top: -90px
+    margin-left: 60px;
+    /* top: 90px; */
+    block-size: 590px;
 }
 .bigblock-block-titre{
     color: white;
@@ -142,19 +162,19 @@ div.container-text{
 
 .bigblock-block{
     position: absolute;
-    order: 1;
     top: 0px;
     left: 0px;
-    padding-top: 30%;
-    padding-left: 30%;
+    /* padding-top: 30%; */
+    padding-left: 5%;
+    /* block-size: 30px; */
 }
 .bigblock-block-block1{
     top: -10px;
-    block-size: 100px;
+    block-size: 170px;
 }
 .bigblock-block-block2{
     top: -20px;
-    block-size: 200px;
+    block-size: 160px;
 }
 .bigblock-block-block3{
     top: -30px;
@@ -162,7 +182,6 @@ div.container-text{
 }
 .bigblock-image1{
     border-image-width: auto;
-    order: 2;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
