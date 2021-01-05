@@ -17,7 +17,7 @@ Une fois cela fait, tu peux lancer la commande `yarn dev`, cela ouvrira la page 
 ## Publier sur github
 
 Pour publier sur github afin que je puisse corriger/vérifier ton travail
-utilise ces commandes :
+utilise ces commandes depuis le terminal de ton IDE:
 
 ```
 $ git add .
